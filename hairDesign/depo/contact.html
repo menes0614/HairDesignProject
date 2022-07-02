@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/6a28da6f4c.js" crossorigin="anonymous"></script>
+    <title>Beauty Salon</title>
+  </head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <img src="img/hairstyle (2).png" alt="" />
+          </a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div id="mobile" class="offcanvas offcanvas-start">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Beauty Salon</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link ">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="abouts.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+              </ul>  
+              <form class="d-flex ">
+                <div class="mx-2">
+                 <a href="Log-in.html" class="btn btn-outline-dark btn-sm nav_but">
+                  Log in </a>
+                 </div>
+                 <div>
+                  <a href="Sign-Up.html" class="btn btn-outline-dark btn-sm nav_but">
+                   Sign up </a>
+                 </div>
+             </form>
+          </div>
+        </div>
+      </div>
+      </nav>
+
+      <main>
+        <div class="container-fluid">
+
+            <div class="container">
+            <div class="mar_con" style="text-align:center;" > <h1 class="display-4" >Contact</h1> 
+                <p class="py-4" style="text-align:center;" >I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just <br>click “Edit Text” or double click me to add your own content and make </br>changes to the font. I’m a great place for you to tell a story and let your users <br>know a little more about you.</p>
+             </div>
+             
+
+            
+             <div class="row row-cols-1 row-cols-md-3 my-5 g-4 ">
+                <div class="col">
+                  <div class="card h-100 bg-dark text-light">
+                    <div class="card-body text-center con_car_p">
+                      <p class="card-text fw-bold" >Phone:</p>
+                      <p class="card-text ">123-456-7890</p>
+                      <p class="card-text fw-bold" >Email:</p>
+                      <p class="card-text">123-456-7890</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col" >
+                    <div class="card h-100 "style="background-color: #E6BA95">
+                      <div class="card-body text-center con_car_p">
+                        <p class="card-text fw-bold" >Opening hours:</p>
+                        <p class="card-text ">Monday 10am-7pm</p>
+                        <p class="card-text " >Wednesday 10am-7pm</p>
+                        <p class="card-text">Thursday 11am-8pm</p>
+                        <p class="card-text">Friday 11am-8pm</p>
+                        <p class="card-text">Saturday 9am-6pm</p>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 bg-dark text-light">
+                      <div class="card-body text-center con_car_p">
+                        <p class="card-text fw-bold" >Address:</p>
+                        <p class="card-text ">500 Terry Francois Street</p>
+                        <p class="card-text" >San Francisco, CA 94158</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <!-- Form -->
+              <div class="row  row-cols-1 row-cols-md-2 my-5 mx-5">
+                <div class="col mb-5">
+                    <label for="name" class="form-label">First Name</label>
+                    <input type="text" name="text" id="name" class="form-control py-3 border-dark border-1  ">
+                </div>
+                <div class="col mb-5 " >
+                    <label for="name" class="form-label">Last Name</label>
+                    <input type="text" name="text" id="name" class="form-control py-3 border-dark border-1">
+                </div>
+
+               <div class="col mb-5">
+                <label for="email" class="form-label">Email*</label>
+                <input type="email" name="email" id="email" class="form-control py-3 border-dark border-1">
+                </div>
+                <div class="col  mb-5" >
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="phone" id="phone" name="phone" placeholder="123-45-678" class="form-control py-3 border-dark border-1">
+                </div>
+
+                <div class="col w-100 mb-5" >
+                    <label for="message" class="form-label">Leave us a message...</label>
+                    <textarea name="message" id="message" class="form-control py-3 border-dark border-1"></textarea>
+                </div>
+                <div class="col-12  py-4 text-center w-100">
+                    <input type="submit" value="Submit" class="btn btn-lg btn-outline-dark px-5" />
+                </div>
+              </div>
+
+            </div>
+
+              <!-- Map -->
+                <div class="row  my-3  d-block">
+                  <div class="col">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23954.8577046542!2d36.2020864!3d41.366323200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40887e57d1745589%3A0x2c3c020700e810b7!2sOndokuz%20May%C4%B1s%20%C3%9Cniversitesi%20E%C4%9Fitim%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1653483284853!5m2!1str!2str" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+    
+          <h3>Shear&Style</h3>
+    
+          <p class="footer-links">
+            <a href="index.html" class="link-1">Home</a>
+            
+            <a href="abouts.html">About</a>
+          
+            <a href="services.html">Services</a>
+          
+            <a href="contact.html">Contact</a>
+          </p>
+    
+          <p class="footer-company-name">Shear&Style © 2022</p>
+        </div>
+    
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Ondokuz Mayıs Üniversitesi</span> Atakum, Samsun</p>
+          </div>
+    
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+1.555.555.5555</p>
+          </div>
+    
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mail@gmail.com">support@Shear_Style.com</a></p>
+          </div>
+    
+        </div>
+    
+        <div class="footer-right">
+    
+          <p class="footer-company-about">
+            <span>About the company</span>
+            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+          </p>
+    
+          <div class="footer-icons">
+    
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    
+          </div>
+    
+        </div>
+    
+      </footer>
+
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>
